@@ -35,7 +35,7 @@ try:
 
     # Step 4: Push to GitHub 
     subprocess.check_call(["git", "push", "origin", "main"])
-    print("🚀 Changes pushed to GitHub successfully!")
+    print(" Changes pushed to GitHub successfully!")
 
 
 except subprocess.CalledProcessError as e :
