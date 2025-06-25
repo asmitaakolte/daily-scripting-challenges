@@ -31,8 +31,11 @@ def find_largest_files(directory, n=5):
     
     # Sort files by size in descending order
     file_sizes.sort(key=lambda x: x[1], reverse=True)
+
     largest_files = file_sizes[:n]
+    
     log_and_print(f"\nLargest {n} files in '{directory}':")
     for filename, size in largest_files:
         log_and_print(f"{filename} -> {size / (1024 * 1024):.2f} MB")       
     return largest_files
+
