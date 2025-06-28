@@ -9,7 +9,7 @@ log_file = f"logs/{os.path.basename(__file__).replace(".py","")}.log"
 os.makedirs("logs",exist_ok= True)
 logging.basicConfig(
     filename=log_file,
-    level=logging.WARNING,
+    level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
@@ -25,12 +25,10 @@ def monitor_memory_usuage(interval=5,duration =60):
     log_and_print(f"Starting memory usage monitoring for {duration} seconds...")
 
     while (datetime.now() - start_time).seconds < duration:
-        memory_info = psutil.virtual_memory()
-        used_memory = memory_info.used / (1024 * 1024)(1025 * 1024)  # Convert to 
-        total_memory = memory_info.total/ (1024 * 1024)
-        memory_usuage_percentage = memory_info.percent
-        if memory_usuage_percentage > 75:
-                log_and_print(f"Used Memory: {used_memory:.2f} MB, Total Memory: {total_memory:.2f} MB, Usage: {memory_usuage_percentage}%")
+        memory_info = psutil.virtual_memory().percent
+       
+        if memory_info > 75:
+               log_and_print(f"please check memory usuage,current usage is {memory_info}%")
         time.sleep(interval)
         log_and_print("Memory usage monitoring completed.")
 def main():
