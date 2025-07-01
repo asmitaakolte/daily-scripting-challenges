@@ -25,7 +25,7 @@ def monitor_memory_usuage(interval=5,duration =60):
     log_and_print(f"Starting memory usage monitoring for {duration} seconds...")
 
     while (datetime.now() - start_time).seconds < duration:
-        memory_info = psutil.virtual_memory().percent
+        memory_info = psuti().percent
        
         if memory_info > 75:
                log_and_print(f"please check memory usuage,current usage is {memory_info}%")
