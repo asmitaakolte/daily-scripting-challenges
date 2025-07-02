@@ -12,3 +12,7 @@
 2025-07-02 17:02:58,582 - INFO - Monitoring folder: scripts
 2025-07-02 17:02:58,582 - INFO - Size of folder 'scripts': 0.01 MB
 2025-07-02 17:02:58,582 - INFO - Folder size monitoring script completed successfully.
+2025-07-02 17:04:03,144 - INFO - Starting folder size monitoring script...
+2025-07-02 17:04:03,144 - INFO - Monitoring folder: scripts
+2025-07-02 17:04:03,144 - INFO - Size of folder 'scripts': 0.01 MB
+2025-07-02 17:04:03,144 - INFO - Folder size monitoring script completed successfully.
