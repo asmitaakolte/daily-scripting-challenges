@@ -27,19 +27,9 @@ As a Cloud and DevOps Engineer, I'm focused on building **automated, secure, and
 
 ---
 
-## 📜 Project Structure
-
-```
-📁 day-6/
-   ├── script1.py
-   └── leetcode1.py
-
-📁 day-7/
-   ├── script2.py
-   └── leetcode2.py
 
 📁 automation/
-   ├── auto_create.py     # Automatically creates daily folder and README
+   ├── auto_create.py     # Automatically creates daily files according to the date and tasks
    └── auto_push.py       # Adds, commits, and pushes code to GitHub
 ```
 
