@@ -1,0 +1,18 @@
+2025-07-05 22:12:17,315 - INFO - Starting to read lines in logs...
+2025-07-05 22:12:17,335 - INFO - File: day_20250624_count_files_using_extension.log - Number of lines: 16
+2025-07-05 22:12:17,336 - INFO - File: day_20250625_find_largest_files.log - Number of lines: 0
+2025-07-05 22:12:17,336 - INFO - File: day_20250628_memory_usuage_monitor.log - Number of lines: 0
+2025-07-05 22:12:17,342 - INFO - File: day_20250629_monitor_log_files.log - Number of lines: 5
+2025-07-05 22:12:17,342 - INFO - File: day_20250701_disk_usuage_monitoring.log - Number of lines: 0
+2025-07-05 22:12:17,351 - INFO - File: day_20250702_monitor_folder_size..log - Number of lines: 18
+2025-07-05 22:12:17,358 - INFO - File: day_20250705_read_lines_in_logs.log - Number of lines: 7
+2025-07-05 22:12:17,358 - INFO - Completed reading lines in logs.
+2025-07-05 22:12:45,239 - INFO - Starting to read lines in logs...
+2025-07-05 22:12:45,239 - INFO - File: day_20250624_count_files_using_extension.log - Number of lines: 16
+2025-07-05 22:12:45,239 - INFO - File: day_20250625_find_largest_files.log - Number of lines: 0
+2025-07-05 22:12:45,240 - INFO - File: day_20250628_memory_usuage_monitor.log - Number of lines: 0
+2025-07-05 22:12:45,240 - INFO - File: day_20250629_monitor_log_files.log - Number of lines: 5
+2025-07-05 22:12:45,240 - INFO - File: day_20250701_disk_usuage_monitoring.log - Number of lines: 0
+2025-07-05 22:12:45,241 - INFO - File: day_20250702_monitor_folder_size..log - Number of lines: 18
+2025-07-05 22:12:45,261 - INFO - File: day_20250705_read_lines_in_logs.log - Number of lines: 16
+2025-07-05 22:12:45,261 - INFO - Completed reading lines in logs.
